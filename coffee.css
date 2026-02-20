@@ -40,12 +40,33 @@
     --site-max-width: 1300px;
 }
 
+/*styling for whole site */
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}   
+
 header {
     background-color: var(--primary-color);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+}
+
+.navbar .nav-logo .logo-text {
+    color: var(--white-color);
 }
 
 .navbar .nav-link {
