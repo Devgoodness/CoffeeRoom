@@ -85,6 +85,12 @@ header .navbar {
     color: var(--white-color);
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-semibold);
+    display: flex;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
 }
 
 .navbar .nav-menu {
