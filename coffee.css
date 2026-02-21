@@ -69,6 +69,9 @@ img {
 
 /* navbar styling */
 header {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
     background-color: var(--primary-color);
 }
 
@@ -116,10 +119,20 @@ header .navbar {
     background: var(--primary-color);
 }
 
-.hero-section .hero-content {
+.hero-section .section-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     min-height: 100vh;
     color: var(--white-color);
+}
+
+.hero-section .hero-details .title {
+    font-size: var(--font-size-xxl);
+    color: var(--secondary-color);
+    font-family: "Miniver", sans-serif;
+}
+
+.hero-section .hero-details .sub-title {
+    
 }
