@@ -110,3 +110,16 @@ header .navbar {
     background: var(--secondary-color);
     color: var(--primary-color);
 }
+
+.hero-section {
+    min-height: 100vh;
+    background: var(--primary-color);
+}
+
+.hero-section .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    color: var(--white-color);
+}
